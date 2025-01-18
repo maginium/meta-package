@@ -1,0 +1,38 @@
+# Composer dependencies
+/vendor/
+
+# Node dependencies (if applicable)
+node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+
+# PHPUnit and testing
+.phpunit.result.cache
+coverage/
+
+# Static analysis and coding standards tools
+/psalm-cache/
+/phpcs.cache
+/php-cs-fixer.cache
+
+# Environment and configuration
+.env
+.env.local
+.env.*.local
+
+# Composer lock file (optional, if this meta-package shouldn't include it)
+composer.lock
+
+# Ignore build artifacts if any
+/build/
