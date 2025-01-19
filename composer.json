@@ -19,11 +19,11 @@
     },
     "require": {
         "php": ">=8.1",
-        "maginium/module-backend": "^1.0",
-        "maginium/module-reports": "^1.0",
-        "maginium/module-framework": "^1.0",
-        "maginium/module-foundation": "^1.0",
-        "maginium/module-composer-patch": "^1.0"
+        "maginium/module-backend": "*",
+        "maginium/module-reports": "*",
+        "maginium/module-framework": "*",
+        "maginium/module-foundation": "*",
+        "maginium/module-composer-patch": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^10.0",
